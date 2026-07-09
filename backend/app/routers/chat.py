@@ -1,6 +1,3 @@
-"""
-/api/chat - the conversational entry point that drives the LangGraph agent.
-"""
 from fastapi import APIRouter
 from langchain_core.messages import HumanMessage, AIMessage
 

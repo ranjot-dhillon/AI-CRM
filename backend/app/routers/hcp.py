@@ -1,6 +1,3 @@
-"""
-Lightweight lookup endpoints for HCP Name and Materials Shared autocomplete.
-"""
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 

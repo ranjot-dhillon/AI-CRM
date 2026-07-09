@@ -1,12 +1,3 @@
-"""
-LangGraph StateGraph wiring: agent (LLM w/ tool-calling) <-> tools, in a
-standard ReAct-style loop, with explicit, debuggable state mutation.
-
-Graph shape:
-
-    START -> agent -> (tool_calls present?) -> tools -> agent -> ... -> END
-                    -> (no tool calls)       -> END
-"""
 import json
 from typing import Dict, Any
 

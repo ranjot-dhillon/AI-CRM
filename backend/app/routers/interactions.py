@@ -1,7 +1,3 @@
-"""
-CRUD for saved interactions (used by the "Save Interaction" button once the
-rep is happy with the form, whether it was filled via the form or the chat).
-"""
 import datetime as dt
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session

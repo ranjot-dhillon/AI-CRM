@@ -1,6 +1,3 @@
-"""
-Application configuration, loaded from environment variables / .env file.
-"""
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 

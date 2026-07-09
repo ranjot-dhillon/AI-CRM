@@ -1,8 +1,3 @@
-"""
-SQLAlchemy engine/session setup. Works with Postgres, MySQL, or SQLite
-(SQLite is the zero-config default so the app runs out of the box;
-set DATABASE_URL to a Postgres/MySQL DSN for production, per the task spec).
-"""
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 

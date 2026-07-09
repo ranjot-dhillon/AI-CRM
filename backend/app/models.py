@@ -1,6 +1,3 @@
-"""
-SQLAlchemy ORM models.
-"""
 import uuid
 import datetime as dt
 

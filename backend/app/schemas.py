@@ -1,6 +1,3 @@
-"""
-Pydantic schemas for API request/response bodies.
-"""
 from typing import Optional, List, Dict, Any
 from pydantic import BaseModel, Field
 

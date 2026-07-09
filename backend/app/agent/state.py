@@ -1,6 +1,3 @@
-"""
-Shared state definition for the LangGraph agent.
-"""
 from typing import Annotated, TypedDict, List, Dict, Any
 from langgraph.graph.message import add_messages
 

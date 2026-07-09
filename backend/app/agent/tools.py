@@ -1,18 +1,3 @@
-"""
-The 5 required tools for the HCP Log Interaction agent:
-
-  1. autofill_interaction        - extract structured fields from free text
-  2. update_interaction          - edit a single existing field conversationally
-  3. check_missing_information   - identify required fields still missing
-  4. suggest_followups           - recommend next actions / follow-up priorities
-  5. generate_summary            - produce a concise professional meeting summary
-
-Each tool is declared with @tool purely so LangGraph/Groq can generate a correct
-function-calling schema for the LLM to invoke. The *execution* of each tool is
-handled explicitly in `dispatch_tool_call` below, so that tools can read/write
-the shared LangGraph AgentState in a transparent, debuggable way (rather than
-relying on hidden global state).
-"""
 import json
 import re
 from typing import Any, Dict, Tuple
